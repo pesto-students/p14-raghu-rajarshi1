@@ -55,10 +55,10 @@ SEO is the practice of optimizing a website to improve its visibility and rankin
 results. Web developers can optimize their websites for better search engine rankings through various
 techniques:
 
-Keyword Research: Identifying relevant keywords and integrating them into content.
-On-Page SEO: Optimizing meta tags, headings, and content for keywords.
-Quality Content: Creating high-quality, relevant, and engaging content.
-Mobile Optimization: Ensuring the website is mobile-friendly.
-Site Speed: Improving loading times for better user experience and search ranking.
-Backlinks: Building quality backlinks from reputable websites.
-Technical SEO: Optimizing site structure, improving crawlability, and fixing issues like broken links.
+    1. Keyword Research: Identifying relevant keywords and integrating them into content.
+    2. On-Page SEO: Optimizing meta tags, headings, and content for keywords.
+    3. Quality Content: Creating high-quality, relevant, and engaging content.
+    4. Mobile Optimization: Ensuring the website is mobile-friendly.
+    5. Site Speed: Improving loading times for better user experience and search ranking.
+    6. Backlinks: Building quality backlinks from reputable websites.
+    7. Technical SEO: Optimizing site structure, improving crawlability, and fixing issues like broken links.
