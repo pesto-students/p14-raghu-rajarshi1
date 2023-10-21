@@ -15,17 +15,17 @@ Internet Protocol) stack, which underlies the entire Internet. It includes proto
 
  TCP/IP Stack Layers:
 
-    Application Layer - This is where high-level protocols reside, like HTTP, FTP, and SMTP. In the
-    context of web development, HTTP is paramount as it governs web data exchange.
+**Application Layer** - This is where high-level protocols reside, like HTTP, FTP, and SMTP. In the
+context of web development, HTTP is paramount as it governs web data exchange.
 
-    Transport Layer - TCP and UDP are the main protocols here. TCP ensures data arrives correctly and
-    in order, while UDP is faster but doesn't guarantee delivery or order.
+**Transport Layer** - TCP and UDP are the main protocols here. TCP ensures data arrives correctly and
+in order, while UDP is faster but doesn't guarantee delivery or order.
 
-    Internet Layer - This contains the IP protocol, which is responsible for routing packets of data
-    across networks.
+**Internet Layer** - This contains the IP protocol, which is responsible for routing packets of data
+across networks.
 
-    Link Layer - This deals with protocols that operate on a network's link connections, like
-    Ethernet.
+**Link Layer** - This deals with protocols that operate on a network's link connections, like
+**Ethernet.
 
 **What are the different types of web servers, and how do they differ in terms of functionality and performance?**
 
@@ -35,35 +35,33 @@ Internet Protocol) stack, which underlies the entire Internet. It includes proto
 Web servers are software or hardware systems that serve web content to clients, such as web browsers.
 There are different types of web servers, for example:
 
-Web Server: Hosts web pages and responds to requests from browsers. It provides static content to users, like HTML pages, images, and multimedia files.
+**Web Server:** Hosts web pages and responds to requests from browsers. It provides static content to users, like HTML pages, images, and multimedia files.
 
-Database Server: Primarily dedicated to providing database services. It stores, retrieves, and manages data in databases.
+**Database Server:** Primarily dedicated to providing database services. It stores, retrieves, and manages data in databases.
 
-Email Server: Manages, sends, and receives emails. It acts as a post office, sorting and delivering emails to individual mailboxes.
+**Email Server:** Manages, sends, and receives emails. It acts as a post office, sorting and delivering emails to individual mailboxes.
 
-Web Proxy Server: Acts as an intermediary between a user's device and the internet. It is used to cache content and filter requests.
+**Web Proxy Server:** Acts as an intermediary between a user's device and the internet. It is used to cache content and filter requests.
 
-DNS Server: Stands for "Domain Name System." It translates domain names into IP addresses, directing internet traffic to the correct server.
+**DNS Server:** Stands for "Domain Name System." It translates domain names into IP addresses, directing internet traffic to the correct server.
 
-FTP Server: Short for "File Transfer Protocol." It facilitates the transfer of files between devices over a network.
+**FTP Server:** Short for "File Transfer Protocol." It facilitates the transfer of files between devices over a network.
 
-File Server: Used for storing and managing digital files. It can be accessed by users on a network.
+**DHCP Server:** Stands for "Dynamic Host Configuration Protocol." It automatically assigns IP addresses to devices on a network.
 
-DHCP Server: Stands for "Dynamic Host Configuration Protocol." It automatically assigns IP addresses to devices on a network.
+**Cloud Server:** A virtual server running in a cloud computing environment. It can be easily scaled up or down based on demand.
 
-Cloud Server: A virtual server running in a cloud computing environment. It can be easily scaled up or down based on demand.
+**Application Server:** Supports the running of application software. It provides both facilities to create web applications and a server environment to run them.
 
-Application Server: Supports the running of application software. It provides both facilities to create web applications and a server environment to run them.
+**Print Server:** Manages printers and print requests within an organization. It queues print jobs and sends them to respective printers.
 
-Print Server: Manages printers and print requests within an organization. It queues print jobs and sends them to respective printers.
+**NTP Server:** Short for "Network Time Protocol." It synchronizes the clocks of computers over a network.
 
-NTP Server: Short for "Network Time Protocol." It synchronizes the clocks of computers over a network.
+**Radius Server:** Used in wireless networks. It handles authentication, authorization, and accounting.
 
-Radius Server: Used in wireless networks. It handles authentication, authorization, and accounting.
+**Syslog Server:** Collects and stores log messages from different devices, offering centralized logging and **reporting.
 
-Syslog Server: Collects and stores log messages from different devices, offering centralized logging and reporting.
-
-Physical Server: A tangible machine that provides resources and services. It's the actual hardware that runs software applications.
+**Physical Server:** A tangible machine that provides resources and services. It's the actual hardware that runs software applications.
     
 **What is web hosting, and what are the different types of hosting services available for websites?**
 
@@ -72,7 +70,7 @@ Physical Server: A tangible machine that provides resources and services. It's t
 Web hosting is a service provided by entities that offer servers to host an application on the web.
 Some of the ypes of hosting services availaible are as follows:
 
-Shared Hosting :
+**Shared Hosting :**
 
 Shared hosting is one of the most popular and cost-effective choices for small websites. As the name suggests, multiple websites share a single server and its resources, including bandwidth, disk space, and CPU.
 
@@ -86,7 +84,7 @@ Limited resources.
 Performance can be affected by other websites hosted on the same server.
 Less control over server settings.
 
-Cloud Hosting :
+**Cloud Hosting :**
 
 Cloud hosting is a more modern hosting solution that utilizes multiple different servers in different locations, effectively treating them as one. This ensures high availability and reduces the chances of downtime.
 
@@ -100,7 +98,7 @@ Cons:
 Can be more expensive than traditional hosting.
 Might require a bit more technical knowledge to manage.
 
-Managed Hosting : 
+**Managed Hosting :** 
 
 In managed hosting, the hosting provider takes care of all the technical aspects of your server. This includes security, backups, updates, and server uptime.
 
@@ -114,7 +112,7 @@ Cons:
 More expensive than shared hosting.
 Less control over server settings.
 
-VPS Hosting :
+**VPS Hosting :**
 
 A VPS is a virtualized server, acting as a dedicated server within a larger server. It's a middle-ground between shared and dedicated hosting.
 
@@ -128,7 +126,7 @@ Cons:
 More expensive than shared hosting.
 Requires more technical knowledge to set up and manage.
 
-Dedicated Hosting :
+**Dedicated Hosting :**
 
 As the pinnacle of hosting types, dedicated hosting provides an entire server dedicated to your website. It's ideal for large businesses or high-traffic websites.
 
@@ -149,7 +147,7 @@ users, traffic, or data. It's essential to ensure that a web application remains
 available, especially during traffic spikes. Scaling can be achieved through vertical scaling
 (scaling up) and horizontal scaling (scaling out):
 
-Vertical Scaling (Scaling Up)
+**Vertical Scaling (Scaling Up)**
 
 Advantages:
 Simplicity: Easier to implement as it involves just upgrading existing server resources.
@@ -171,7 +169,7 @@ Horizontal Scaling: Involves adding more server instances to distribute the load
 applications with high scalability needs and is often used in cloud-based environments. Load
 balancers are commonly employed to distribute traffic across these instances.
 
-Horizontal Scaling (Scaling Out)
+**Horizontal Scaling (Scaling Out)**
 
 Advantages:
 Flexibility: Can add or remove servers based on the demand.
