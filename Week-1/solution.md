@@ -1,4 +1,4 @@
-**What is a protocol stack, and how is it used in web development?**
+## **What is a protocol stack, and how is it used in web development?**
 
 A protocol stack is a specific set of rules that defines what kind of protocols need to be followed
 to execute a perticular network request on the internet. 
@@ -27,7 +27,7 @@ across networks.
 **Link Layer** - This deals with protocols that operate on a network's link connections, like
 **Ethernet.
 
-**What are the different types of web servers, and how do they differ in terms of functionality and performance?**
+## **What are the different types of web servers, and how do they differ in terms of functionality and performance?**
 
 ![Web Servers](./images/image1.png)
 
@@ -63,7 +63,7 @@ There are different types of web servers, for example:
 
 **Physical Server:** A tangible machine that provides resources and services. It's the actual hardware that runs software applications.
     
-**What is web hosting, and what are the different types of hosting services available for websites?**
+## **What is web hosting, and what are the different types of hosting services available for websites?**
 
 ![Hosting Types](./images/image3.png)
 
@@ -140,7 +140,7 @@ Cons:
 Most expensive hosting type.
 Requires technical expertise to manage.
 
-**What is scaling, and why is it important for web applications? How does scaling differ for vertical and horizontal scaling?**
+## **What is scaling, and why is it important for web applications? How does scaling differ for vertical and horizontal scaling?**
 
 Scaling in web applications refers to the process of increasing the system's capacity to handle more
 users, traffic, or data. It's essential to ensure that a web application remains responsive and
@@ -195,7 +195,7 @@ Data Storage Scaling: As data grows, databases may become bottlenecks. Solutions
 
 Microservices Architecture: Decomposing an application into smaller, independent services can make horizontal scaling more manageable. Each service can be scaled independently based on its demand.
 
-**What is SEO (Search Engine Optimization), and how can web developers optimize their websites for better search engine rankings?**
+## **What is SEO (Search Engine Optimization), and how can web developers optimize their websites for better search engine rankings?**
 
 SEO is the practice of optimizing a website to improve its visibility and ranking in search engine
 results. Web developers can optimize their websites for better search engine rankings through various
