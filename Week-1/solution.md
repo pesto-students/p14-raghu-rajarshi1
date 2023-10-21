@@ -147,6 +147,8 @@ users, traffic, or data. It's essential to ensure that a web application remains
 available, especially during traffic spikes. Scaling can be achieved through vertical scaling
 (scaling up) and horizontal scaling (scaling out):
 
+![Scaling](./images/image4.png)
+
 **Vertical Scaling (Scaling Up)**
 
 Advantages:
