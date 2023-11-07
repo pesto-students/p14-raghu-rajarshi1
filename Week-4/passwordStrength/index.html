@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strength Checker</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Password Strength Checker</h1>
+    <form id="passwordForm">
+        <label for="password">Enter your password:</label>
+        <input type="password" id="password" name="password">
+        <input type="submit" value="Check Password">
+    </form>
+    <script>
+        // Listen for form submission to check the password strength
+        document.getElementById('passwordForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent form from submitting normally
+            var password = document.getElementById('password').value;
+            var isStrong = isStrongPassword(password);
+            alert("Is strong password: " + isStrong);
+        });
+    </script>
+</body>
+</html>
