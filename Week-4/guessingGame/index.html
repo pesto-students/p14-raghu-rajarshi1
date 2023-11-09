@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Guessing Game</h1>
+    <button onclick="startGame()">Start Game</button>
+
+    <script>
+        function startGame() {
+            const numToGuess = 37; 
+            const guesses = playGuessingGame(numToGuess);
+            
+            if (guesses > 0) {
+                alert(`Congratulations! You guessed the number in ${guesses} tries.`);
+            } else {
+                alert("Sorry, you didn't guess the number.");
+            }
+        }
+    </script>
+</body>
+</html>
